@@ -1,0 +1,95 @@
+.navigation-area{
+    height: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navigation-area .nav-link:hover{
+    color:#7639D8 !important ;
+}
+header{
+    background-image: linear-gradient(to right,#7639d81a,#003df53f);
+}
+.highlight{
+    color: #7B32D7;
+}
+.button{
+    background-image: linear-gradient(#4D72DF,#7639D8);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background-image: linear-gradient(to left,#7639D8,#4D72DF);
+}
+.shopping-item-image img{
+    height: 400px;
+    
+}
+.card-pricing button{
+    right: 10px;
+    position: absolute;
+}
+.shopping-item{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px lightgray;
+}
+.middle-banner-area{
+    background-color: lightgray;
+}
+.middle-banner-details-area {
+    border-radius: 20px;
+}
+.middle-banner-image-left img{
+    width: 170px;
+}
+
+.middle-banner-image-right img{
+    width: 100%;
+}
+#contact-us{
+    height: 300px;
+    background-image: linear-gradient(to right,#7639d81a,#003df53f);
+    
+}
+#contact-us input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    text-align: center; 
+}
+#contact-us button{
+    width: 100%;
+}
+.social-media-icons{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+}
+@media(max-width:768px){
+    .top-banner-area{
+        flex-direction: column-reverse;
+    }
+    .banner-details{
+        text-align: center;
+    }
+    .middle-banner-items{
+        flex-direction: column-reverse;
+    }
+    .middle-banner-coloumns{
+        margin-top: 30px;
+    }
+    .middle-banner-details-area{
+       display: block !important;
+       text-align: center;
+    }
+}
